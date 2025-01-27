@@ -6,9 +6,11 @@
 <a href="{{ site.url }}" class="logo">{{ site.short_logo }}</a>
 {% endif %}
 <ul class="menu">
-<li class="menu__entry"><a href="{{ site.url }}">home</a></li>
-<li class="menu__entry"><a href="{{ site.url }}/projects">projects</a></li>
-<li class="menu__entry"><a href="{{ site.url }}/posts">posts</a></li>
+<li class="menu__entry"><a href="{{ site.url }}">HOME</a></li>
+<li class="menu__entry"><a href="{{ site.url }}/resume">RESUME</a></li>
+<li class="menu__entry"><a href="{{ site.url }}/projects">PROJECTS</a></li>
+<li class="menu__entry"><a href="{{ site.url }}/posts">POSTS</a></li>
+<li class="menu__entry"><a href="{{ site.url }}/tags">TAGS</a></li>
 </ul>
 </div>
 <ul class="social-links">
@@ -22,11 +24,11 @@
 <i class="fab fa-github"></i>
 </a>
 {% endif %}
-{% if site.author.linkedin %}
+<!-- {% if site.author.linkedin %}
 <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
 <i class="fab fa-linkedin-in"></i>
 </a>
-{% endif %}
+{% endif %} -->
 {% if site.rss %}
 <a href="{{ site.url }}/feed.xml" class="social-links__entry" target="_blank">
 <i style="color: rgba( 254, 164, 1, 100%);" class="fas fa-rss"></i>
