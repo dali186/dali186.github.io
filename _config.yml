@@ -6,9 +6,10 @@ url: ""
 github_username: dali186
 
 theme: jekyll-theme-clean-blog
-
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 paginate: 10
 paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
